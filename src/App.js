@@ -3,11 +3,12 @@ import logo from "./logo.svg";
 import "./App.css";
 
 const state = {
-  name: "Oleg"
+  name: "Oleg",
+  name3: "Oleg"
 };
 
 function App() {
-  const { name } = state;
+  const { name, name3 } = state;
   return (
     <div className="App">
       <header className="App-header">
